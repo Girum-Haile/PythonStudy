@@ -6,12 +6,12 @@ list2 = ['a', 'b', 'c']
 list3 = ['a', 'b', 2]
 # allow duplicated values
 list4 = [2, 3, 4, 4, 2, 6, 6, 7, 8]
-
 # accessing list
 print(list1[0])  # we refer to the index number ot access the values
 print(list1)
 list10 = [['hell', 'heaven'], ['now']]
-print(list10[0][1])  # accessing multi-dimensional list
+# accessing multi-dimensional list
+print(list10[0][1])
 # negative indexing -- it begins counting backward or beginning from end
 print(list4[-3])
 # to add new element to a list we use append() built-in function
@@ -42,7 +42,7 @@ list12 = ['one', 'two', 'three']
 print(list12)
 list12.remove('one')
 print(list12)
-# slicing used to print specific range of elements from a list
+# slicing -is used to print specific range of elements from a list
 list13 = [5, 6, 76, 32, 23, 45, 54, 66]
 print(list13)
 print(list13[1:4])  # prints the numbers from index 1 to 3 not including index 4
