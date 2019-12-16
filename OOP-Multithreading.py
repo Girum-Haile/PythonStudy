@@ -93,16 +93,16 @@ def main_task():
     x = 0
 
     # creating threads
-    t1 = threading.Thread(target=thread_task)
-    t2 = threading.Thread(target=thread_task)
+    a = threading.Thread(target=thread_task)
+    a1 = threading.Thread(target=thread_task)
 
     # start threads
-    t1.start()
-    t2.start()
+    a.start()
+    a1.start()
 
     # wait until threads finish their job
-    t1.join()
-    t2.join()
+    a.join()
+    a1.join()
 
 
 if __name__ == "__main__":
