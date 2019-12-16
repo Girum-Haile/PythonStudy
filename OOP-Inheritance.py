@@ -1,5 +1,5 @@
 # Inheritance is the capability of one class to derive or inherit the properties from some another class.
-# single inheritance
+# single-inheritance
 
 
 class Person:
