@@ -1,6 +1,6 @@
 # A loops are instructions that repeats until a specified condition is reached.
 # for loop - runs for a present number of times
-# for in loop using range
+# for-in loop using range
 for i in range(10):
     print(i)  # print from 0-9
 
