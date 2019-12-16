@@ -1,6 +1,6 @@
 # this program prints out "hello World" on the console
 # string values must be inside quotes
-print("hello world")
+print("hello_world")
 # number values doesn't require quotes
 print(12)
 # type() is used to identify the type of the value
