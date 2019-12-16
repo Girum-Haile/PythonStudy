@@ -1,4 +1,4 @@
-# Multithreading-is defined as the ability of a processor to execute multiple threads concurrently.
+# Multithreading--is defined as the ability of a processor to execute multiple threads concurrently.
 # importing the threading module
 import threading
 import os
