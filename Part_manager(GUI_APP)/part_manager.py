@@ -100,16 +100,16 @@ scroll_bar.configure(command=part_list.yview)
 # bind select
 part_list.bind("<<ListboxSelect>>", select_item)
 # buttons
-add_btn = Button(app, text="Add Parts",  width=12, command=add_item)
+add_btn = Button(app, text="Add Parts",  width=12, bg='gray',foreground="white", command=add_item)
 add_btn.grid(row=2, column=0, pady=20)
 
-remove_btn = Button(app, text="Remove Parts",  width=12, command=remove_item)
+remove_btn = Button(app, text="Remove Parts",  width=12, bg='gray', foreground="white",  command=remove_item)
 remove_btn.grid(row=2, column=1)
 
-update_btn = Button(app, text="Update Parts",  width=12, command=update_item)
+update_btn = Button(app, text="Update Parts",  width=12, bg='gray', foreground="white",command=update_item)
 update_btn.grid(row=2, column=2)
 
-clear_btn = Button(app, text="Clear Input",  width=12, command=clear_item)
+clear_btn = Button(app, text="Clear Input",  width=12, bg='gray',foreground="white", command=clear_item)
 clear_btn.grid(row=2, column=3)
 
 # to change the title
