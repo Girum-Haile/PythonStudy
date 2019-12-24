@@ -118,6 +118,6 @@ app.geometry('520x350')
 # populate data
 populate_list()
 
-# To start  the program
+# To start the program
 app.mainloop()
 
